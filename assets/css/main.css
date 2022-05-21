@@ -1,0 +1,21 @@
+.BaseSpinner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 30px;
+  width: 30px;
+  border: 3px;
+  border-style: solid dotted dotted solid;
+  border-color: #0098ff;
+  border-radius: 50%;
+  animation: Spins 1s linear infinite;
+}
+@keyframes Spins {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
